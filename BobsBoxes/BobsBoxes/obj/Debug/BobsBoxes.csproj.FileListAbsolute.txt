@@ -1,0 +1,7 @@
+c:\users\tangwend368\documents\visual studio 2015\Projects\BobsBoxes\BobsBoxes\bin\Debug\BobsBoxes.exe.config
+c:\users\tangwend368\documents\visual studio 2015\Projects\BobsBoxes\BobsBoxes\bin\Debug\BobsBoxes.exe
+c:\users\tangwend368\documents\visual studio 2015\Projects\BobsBoxes\BobsBoxes\bin\Debug\BobsBoxes.pdb
+c:\users\tangwend368\documents\visual studio 2015\Projects\BobsBoxes\BobsBoxes\obj\Debug\BobsBoxes.csprojResolveAssemblyReference.cache
+c:\users\tangwend368\documents\visual studio 2015\Projects\BobsBoxes\BobsBoxes\obj\Debug\BobsBoxes.exe
+c:\users\tangwend368\documents\visual studio 2015\Projects\BobsBoxes\BobsBoxes\obj\Debug\BobsBoxes.pdb
+c:\users\tangwend368\documents\visual studio 2015\Projects\BobsBoxes\BobsBoxes\bin\Debug\boxdata.txt

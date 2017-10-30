@@ -1,0 +1,4 @@
+C:\Users\tangwend368\Documents\Projects\HighLow\HighLow\bin\Debug\HighLow.exe
+C:\Users\tangwend368\Documents\Projects\HighLow\HighLow\bin\Debug\HighLow.pdb
+C:\Users\tangwend368\Documents\Projects\HighLow\HighLow\obj\x86\Debug\HighLow.exe
+C:\Users\tangwend368\Documents\Projects\HighLow\HighLow\obj\x86\Debug\HighLow.pdb
