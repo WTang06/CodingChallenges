@@ -12,6 +12,8 @@ namespace BobsBoxes
 
             double TotalCost = 0;
 
+            double plastic = Convert.ToDouble(reader.ReadLine());
+
             while (reader.Peek() != -1)
             {
                 string line = reader.ReadLine();
@@ -40,7 +42,7 @@ namespace BobsBoxes
 
                 double plasticvolume = outervolume - innervolume;
 
-                double boxcost = plasticvolume * 0.00025;
+                double boxcost = plasticvolume * plastic;
                 string bcost = string.Format("{0:C}", Convert.ToDouble(boxcost));
 
                 writer.WriteLine("Cost per box:{0}", bcost);
