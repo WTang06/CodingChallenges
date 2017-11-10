@@ -10,7 +10,10 @@ namespace StairwayToHeaven
             Console.WriteLine("");
 
             Console.WriteLine("What size?");
-            Console.ReadLine();
+            int N = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("");
+
+            Console.WriteLine("{0}", N);
 
         }
     }
