@@ -10,20 +10,22 @@ namespace BobsBoxes
             StreamReader reader = new StreamReader("boxdata.txt");
             StreamWriter writer = new StreamWriter("output.txt");
 
-            double TotalCost = 0;
+            double totalCost = 0;
 
             double plastic = Convert.ToDouble(reader.ReadLine());
 
+            writer.WriteLine("BOB'S BOXES COST CALCULAIONS");
+            
             while (reader.Peek() != -1)
             {
                 string line = reader.ReadLine();
 
                 string[] parts = line.Split(',');
 
-                string boxcolour = (parts[0]);
+                string boxcolour = parts[0];
 
                 writer.WriteLine("Box colour:{0}", boxcolour);
-                writer.WriteLine("");
+                writer.WriteLine("-----------------------------------------");
 
                 double innerlength = Convert.ToDouble(parts[1]);
                 double innerwidth = Convert.ToDouble(parts[2]);
@@ -53,13 +55,13 @@ namespace BobsBoxes
                 string TotalBoxCost = string.Format("{0:C}", Convert.ToDouble(cost));
 
                 writer.WriteLine("Cost for {0} boxes:{1}", boxamount, TotalBoxCost);
-                writer.WriteLine("");
+                writer.WriteLine("-----------------------------------------");
 
-                TotalCost = TotalCost + cost;
+                totalCost = totalCost + cost;
    
             }
 
-            string CurrencyTotalCost  = string.Format("{0:C}", Convert.ToDouble(TotalCost));
+            string CurrencyTotalCost  = string.Format("{0:C}", Convert.ToDouble(totalCost));
             writer.WriteLine("Total Cost:{0}", CurrencyTotalCost);
 
             reader.Close();
