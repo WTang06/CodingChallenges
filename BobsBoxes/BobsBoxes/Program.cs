@@ -22,47 +22,47 @@ namespace BobsBoxes
 
                 string[] parts = line.Split(',');
 
-                string boxcolour = parts[0];
+                string boxColour = parts[0];
 
-                writer.WriteLine("Box colour:{0}", boxcolour);
+                writer.WriteLine("Box colour:{0}", boxColour);
                 writer.WriteLine("-----------------------------------------");
 
-                double innerlength = Convert.ToDouble(parts[1]);
-                double innerwidth = Convert.ToDouble(parts[2]);
-                double innerheight = Convert.ToDouble(parts[3]);
+                double innerLength = Convert.ToDouble(parts[1]);
+                double innerWidth = Convert.ToDouble(parts[2]);
+                double innerHeight = Convert.ToDouble(parts[3]);
                 
-                double innervolume = innerlength * innerwidth * innerheight;
+                double innerVolume = innerLength * innerWidth * innerHeight;
 
-                double thicknessinmm = Convert.ToDouble(parts[4]);
-                double thickness = thicknessinmm/10;
+                double thicknessInMm = Convert.ToDouble(parts[4]);
+                double thickness = thicknessInMm/10;
 
-                double outerlength = (thickness * 2) + innerlength;
-                double outerwidth = (thickness * 2) + innerwidth;
-                double outerheight = (thickness * 2) + innerheight;
+                double outerLength = (thickness * 2) + innerLength;
+                double outerWidth = (thickness * 2) + innerWidth;
+                double outerHeight = (thickness * 2) + innerHeight;
 
-                double outervolume = outerlength * outerwidth * outerheight;
+                double outerVolume = outerLength * outerWidth * outerHeight;
 
-                double plasticvolume = outervolume - innervolume;
+                double plasticVolume = outerVolume - innerVolume;
 
-                double boxcost = plasticvolume * plastic;
-                string bcost = string.Format("{0:C}", Convert.ToDouble(boxcost));
+                double boxCost = plasticVolume * plastic;
+                string bCost = string.Format("{0:C}", Convert.ToDouble(boxCost));
 
-                writer.WriteLine("Cost per box:{0}", bcost);
+                writer.WriteLine("Cost per box:{0}", bCost);
 
-                double boxamount = Convert.ToDouble(parts[5]);
+                double boxAmount = Convert.ToDouble(parts[5]);
 
-                double cost = boxcost * boxamount;
-                string TotalBoxCost = string.Format("{0:C}", Convert.ToDouble(cost));
+                double cost = boxCost * boxAmount;
+                string totalBoxCost = string.Format("{0:C}", Convert.ToDouble(cost));
 
-                writer.WriteLine("Cost for {0} boxes:{1}", boxamount, TotalBoxCost);
+                writer.WriteLine("Cost for {0} boxes:{1}", boxAmount, totalBoxCost);
                 writer.WriteLine("-----------------------------------------");
 
                 totalCost = totalCost + cost;
    
             }
 
-            string CurrencyTotalCost  = string.Format("{0:C}", Convert.ToDouble(totalCost));
-            writer.WriteLine("Total Cost:{0}", CurrencyTotalCost);
+            string currencyTotalCost  = string.Format("{0:C}", Convert.ToDouble(totalCost));
+            writer.WriteLine("Total Cost:{0}", currencyTotalCost);
 
             reader.Close();
             writer.Close();
