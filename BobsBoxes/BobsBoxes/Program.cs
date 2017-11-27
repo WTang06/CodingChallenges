@@ -14,7 +14,7 @@ namespace BobsBoxes
 
             double plastic = Convert.ToDouble(reader.ReadLine());
 
-            writer.WriteLine("BOB'S BOXES COST CALCULAIONS");
+            writer.WriteLine("BOB'S BOXES COST CALCULATIONS");
             
             while (reader.Peek() != -1)
             {
