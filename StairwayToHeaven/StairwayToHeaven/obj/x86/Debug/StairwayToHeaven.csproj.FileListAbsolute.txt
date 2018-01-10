@@ -2,3 +2,7 @@ C:\Users\tangwend368\Documents\Projects\StairwayToHeaven\StairwayToHeaven\bin\De
 C:\Users\tangwend368\Documents\Projects\StairwayToHeaven\StairwayToHeaven\bin\Debug\StairwayToHeaven.pdb
 C:\Users\tangwend368\Documents\Projects\StairwayToHeaven\StairwayToHeaven\obj\x86\Debug\StairwayToHeaven.exe
 C:\Users\tangwend368\Documents\Projects\StairwayToHeaven\StairwayToHeaven\obj\x86\Debug\StairwayToHeaven.pdb
+C:\Users\tangwend368\Documents\GitHub\CodingChallenges\StairwayToHeaven\StairwayToHeaven\bin\Debug\StairwayToHeaven.exe
+C:\Users\tangwend368\Documents\GitHub\CodingChallenges\StairwayToHeaven\StairwayToHeaven\bin\Debug\StairwayToHeaven.pdb
+C:\Users\tangwend368\Documents\GitHub\CodingChallenges\StairwayToHeaven\StairwayToHeaven\obj\x86\Debug\StairwayToHeaven.exe
+C:\Users\tangwend368\Documents\GitHub\CodingChallenges\StairwayToHeaven\StairwayToHeaven\obj\x86\Debug\StairwayToHeaven.pdb
