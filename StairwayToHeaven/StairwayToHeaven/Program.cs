@@ -19,11 +19,8 @@ namespace StairwayToHeaven
 				Console.WriteLine("*");
 				   
             }
-
-			for (string s = "*"; s < N; s++)
-			{
-				Console.WriteLine ("");
-			}
+			for (int s =  )
+		
         }
     }
 }
