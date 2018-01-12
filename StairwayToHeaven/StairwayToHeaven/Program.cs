@@ -19,7 +19,6 @@ namespace StairwayToHeaven
 				Console.WriteLine("*");
 				   
             }
-			for (int s =  )
 		
         }
     }
