@@ -11,15 +11,17 @@ namespace StairwayToHeaven
 
             Console.WriteLine("What size?");
             int N = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("");
+			Console.WriteLine ("");
 
-           
-            for (int i = 0; i < N; i++)
-            {
-				Console.WriteLine("*");
-				   
-            }
-		
+			string line = ("");
+
+			for (int i = 0; i < N; i++) 
+			{
+				line += '*';
+
+				Console.WriteLine ("{0}", line);
+			}
+
         }
     }
 }
