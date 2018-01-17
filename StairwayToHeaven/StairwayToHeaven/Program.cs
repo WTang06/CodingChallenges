@@ -13,15 +13,22 @@ namespace StairwayToHeaven
             int N = Convert.ToInt32(Console.ReadLine());
 			Console.WriteLine ();
 
-			string line = "";
-
 			for (int i = 0; i < N; i++) 
 			{
-				line += "*";
+				for (int s = 0; s < N ; s++) 
+				{
+					Console.Write(" ");
+				}
+				for (int a = 0; a < i; a++) 
+				{
+					Console.Write("*");
+				}
 
-				Console.WriteLine (line);
+				Console.WriteLine ();
 
+			
 			}
+
 		}
 
      }
