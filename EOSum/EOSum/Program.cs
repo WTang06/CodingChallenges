@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
+using System.IO;
 
 namespace EOSum
 {
@@ -7,6 +7,9 @@ namespace EOSum
     {
         static void Main(string[] args)
         {
+            StreamReader reader = new StreamReader("input.txt");
+            StreamWriter writer = new StreamWriter("output.txt");
+
             int n = Convert.ToInt32(reader.ReadLine());
 
             for (int i = 1; i <= n; i++)

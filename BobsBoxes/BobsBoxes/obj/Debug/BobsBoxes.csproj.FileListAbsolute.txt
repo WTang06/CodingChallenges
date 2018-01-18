@@ -5,3 +5,6 @@ c:\users\tangwend368\documents\visual studio 2015\Projects\BobsBoxes\BobsBoxes\o
 c:\users\tangwend368\documents\visual studio 2015\Projects\BobsBoxes\BobsBoxes\obj\Debug\BobsBoxes.exe
 c:\users\tangwend368\documents\visual studio 2015\Projects\BobsBoxes\BobsBoxes\obj\Debug\BobsBoxes.pdb
 c:\users\tangwend368\documents\visual studio 2015\Projects\BobsBoxes\BobsBoxes\bin\Debug\boxdata.txt
+C:\Users\tangwend368\Documents\GitHub\CodingChallenges\BobsBoxes\BobsBoxes\bin\Debug\BobsBoxes.exe.config
+C:\Users\tangwend368\Documents\GitHub\CodingChallenges\BobsBoxes\BobsBoxes\obj\Debug\BobsBoxes.exe
+C:\Users\tangwend368\Documents\GitHub\CodingChallenges\BobsBoxes\BobsBoxes\obj\Debug\BobsBoxes.pdb
