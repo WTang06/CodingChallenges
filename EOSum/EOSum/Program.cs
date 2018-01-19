@@ -12,13 +12,16 @@ namespace EOSum
 
             int n = Convert.ToInt32(reader.ReadLine());
 
+            System.Diagnostics.Stopwatch myStopWatch = new System.Diagnostics.Stopwatch();
+
+            myStopWatch.Start();
+
             for (int i = 1; i <= n; i++)
             {
-                if (n % i == 0)
-                {
 
-                }
             }
+
+            myStopWatch.Elapsed.Milliseconds.ToString();
         }
     }
 }
