@@ -5,3 +5,4 @@ C:\Users\tangwend368\Documents\GitHub\CodingChallenges\EOSum\EOSum\bin\Debug\EOS
 C:\Users\tangwend368\Documents\GitHub\CodingChallenges\EOSum\EOSum\bin\Debug\EOSum.pdb
 C:\Users\tangwend368\Documents\GitHub\CodingChallenges\EOSum\EOSum\obj\Debug\EOSum.exe
 C:\Users\tangwend368\Documents\GitHub\CodingChallenges\EOSum\EOSum\obj\Debug\EOSum.pdb
+C:\Users\tangwend368\Documents\GitHub\CodingChallenges\EOSum\EOSum\bin\Debug\input.txt
