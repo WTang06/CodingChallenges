@@ -1,1 +1,9 @@
+EvenSum = 1, OddSum = 0, Stopwatch = System.Diagnostics.Stopwatch 
+EvenSum = 1, OddSum = 0, Stopwatch = System.Diagnostics.Stopwatch 
+EvenSum = 4, OddSum = 0, Stopwatch = System.Diagnostics.Stopwatch 
+EvenSum = 4, OddSum = 0, Stopwatch = System.Diagnostics.Stopwatch 
+EvenSum = 4, OddSum = 0, Stopwatch = System.Diagnostics.Stopwatch 
+EvenSum = 4, OddSum = 0, Stopwatch = System.Diagnostics.Stopwatch 
+EvenSum = 4, OddSum = 0, Stopwatch = System.Diagnostics.Stopwatch 
+EvenSum = 4, OddSum = 0, Stopwatch = System.Diagnostics.Stopwatch 
 EvenSum = 13, OddSum = 0, Stopwatch = System.Diagnostics.Stopwatch 

@@ -44,10 +44,10 @@ namespace EOSum
                 }
 
                 myStopWatch.Stop();
+                writer.WriteLine("EvenSum = {0}, OddSum = {1}, Stopwatch = {2} ", oddsum, evensum, myStopWatch);
             }
 
             myStopWatch.Elapsed.Milliseconds.ToString();
-            writer.Write("EvenSum = {0}, OddSum = {1}, Stopwatch = {2} ", oddsum, evensum, myStopWatch);
 
             reader.Close();
             writer.Close();
