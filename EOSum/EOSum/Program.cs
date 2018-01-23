@@ -17,8 +17,8 @@ namespace EOSum
 
             myStopWatch.Start();
 
-            int evensum = 0 + i;
-            int oddsum = 0 + i;
+            int evensum = 0;
+            int oddsum = 0;
 
             for (int i = 1; i <= n; i++)
             {
@@ -30,14 +30,20 @@ namespace EOSum
                     if (i % 2 == 0)
                     {
                         //is even number
+
+                        
+
                     }
                     else
                     {
                         //is odd number
+
+                        
+
                     }
                 }
 
-                writer.Write("EvenSum = {0}, OddSum = {1}", evensum, oddsum);
+                writer.Write("EvenSum = {0}, OddSum = {1}", );
             }
 
             myStopWatch.Elapsed.Milliseconds.ToString();
