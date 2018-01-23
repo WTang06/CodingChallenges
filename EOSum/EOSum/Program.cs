@@ -42,13 +42,13 @@ namespace EOSum
 
                     }
                 }
-
-               
             }
 
-            writer.Write("EvenSum = {0}, OddSum = {1}", oddsum, evensum);
+            myStopWatch.Stop();
 
             myStopWatch.Elapsed.Milliseconds.ToString();
+
+            writer.Write("EvenSum = {0}, OddSum = {1}, Stopwatch = {2} ", oddsum, evensum, myStopWatch);
         }
     }
 }
