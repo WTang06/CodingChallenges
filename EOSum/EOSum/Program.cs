@@ -45,8 +45,8 @@ namespace EOSum
 
                 myStopWatch.Stop();
             }
-            myStopWatch.Elapsed.Milliseconds.ToString();
 
+            myStopWatch.Elapsed.Milliseconds.ToString();
             writer.Write("EvenSum = {0}, OddSum = {1}, Stopwatch = {2} ", oddsum, evensum, myStopWatch);
 
             reader.Close();
