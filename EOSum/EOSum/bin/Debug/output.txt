@@ -1,9 +1,9 @@
-EvenSum = 0, OddSum = 1, Stopwatch = 00:00:00.00 
-EvenSum = 0, OddSum = 1, Stopwatch = 00:00:00.00 
-EvenSum = 0, OddSum = 4, Stopwatch = 00:00:00.00 
-EvenSum = 0, OddSum = 4, Stopwatch = 00:00:00.00 
-EvenSum = 0, OddSum = 4, Stopwatch = 00:00:00.00 
-EvenSum = 0, OddSum = 4, Stopwatch = 00:00:00.00 
-EvenSum = 0, OddSum = 4, Stopwatch = 00:00:00.00 
-EvenSum = 0, OddSum = 4, Stopwatch = 00:00:00.00 
-EvenSum = 0, OddSum = 13, Stopwatch = 00:00:00.00 
+EvenSum = 1, OddSum = 0
+EvenSum = 1, OddSum = 0
+EvenSum = 4, OddSum = 0
+EvenSum = 4, OddSum = 0
+EvenSum = 4, OddSum = 0
+EvenSum = 4, OddSum = 0
+EvenSum = 4, OddSum = 0
+EvenSum = 4, OddSum = 0
+EvenSum = 13, OddSum = 0
