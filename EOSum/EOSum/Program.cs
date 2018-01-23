@@ -31,20 +31,22 @@ namespace EOSum
                     {
                         //is even number
 
-                        
+                        evensum += i;
 
                     }
                     else
                     {
                         //is odd number
 
-                        
+                        oddsum += i;
 
                     }
                 }
 
-                writer.Write("EvenSum = {0}, OddSum = {1}", );
+               
             }
+
+            writer.Write("EvenSum = {0}, OddSum = {1}", oddsum, evensum);
 
             myStopWatch.Elapsed.Milliseconds.ToString();
         }
