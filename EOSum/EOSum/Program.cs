@@ -13,7 +13,7 @@ namespace EOSum
 
             int n = Convert.ToInt32(reader.ReadLine());
 
-            Stopwatch myStopWatch = new System.Diagnostics.Stopwatch();
+            Stopwatch myStopWatch = new Stopwatch();
 
             myStopWatch.Start();
 
@@ -42,13 +42,15 @@ namespace EOSum
 
                     }
                 }
+
+                myStopWatch.Stop();
             }
-
-            myStopWatch.Stop();
-
             myStopWatch.Elapsed.Milliseconds.ToString();
 
             writer.Write("EvenSum = {0}, OddSum = {1}, Stopwatch = {2} ", oddsum, evensum, myStopWatch);
+
+            reader.Close();
+            writer.Close();
         }
     }
 }
