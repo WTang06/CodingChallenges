@@ -34,7 +34,7 @@ namespace EOSum
                         evensum += i;
 
                     }
-                    else if (i % 2 != 0)
+                    else
                     {
                         //is odd number
 
